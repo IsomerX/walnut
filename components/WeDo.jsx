@@ -12,8 +12,10 @@ const WeDo = () => {
                 </div>
             </div>
             <div className="relative">
-                <div className="left-1/2 -translate-x-1/2 w-[78%] h-[2px] bg-[#7b7b7b] absolute top-[15px] -z-10"></div>
-                <div className="grid grid-cols-5 gap-10 px-10">
+                <div className="
+                hidden lg:block
+                left-1/2 -translate-x-1/2 w-[78%] h-[2px] bg-[#7b7b7b] absolute top-[15px] -z-10"></div>
+                <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10 px-10">
                     <WeDoItem idx={1} />
                     <WeDoItem idx={2} />
                     <WeDoItem idx={3} />

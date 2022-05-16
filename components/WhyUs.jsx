@@ -5,8 +5,8 @@ import Graphic from "../public/static/images/500x300.png";
 
 const WhyUs = () => {
     return (
-        <div className="pt-12 flex justify-between">
-            <div className="w-7/12 flex gap-3 flex-col">
+        <div className="pt-12 flex flex-col lg:flex-row justify-between gap-5 lg:gap-0">
+            <div className="lg:w-7/12 flex gap-3 flex-col">
                 <div>
                     <h1 className="font-ald font-bold text-2xl">Why Us</h1>
                     <p className="font-aleg text-xl">
@@ -16,7 +16,7 @@ const WhyUs = () => {
                         is take a leap of faith
                     </p>
                 </div>
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid md:grid-cols-2 gap-3">
                     <div className="flex items-center font-aleg gap-3">
                         <div className="flex-shrink-0 flex items-center">
                             <Image
@@ -97,7 +97,7 @@ const WhyUs = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="mx-auto">
                 <Image src={Graphic} width={500} height={300} alt="graphic" />
             </div>
         </div>

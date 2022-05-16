@@ -38,7 +38,7 @@ const ExpertConnect = () => {
                     </h1>
                 </div>
             </div>
-            <div className="grid grid-cols-3 w-full xl:w-7/12 place-items-center gap-10 mx-auto mt-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full xl:w-7/12 place-items-center gap-10 mx-auto mt-10">
                 {cards}
             </div>
             <div className="w-full flex justify-center py-10">

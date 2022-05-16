@@ -11,7 +11,7 @@ import WhyUs from "../components/WhyUs";
 
 export default function Home() {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <Head>
                 <title>Walnut</title>
                 <meta
@@ -22,7 +22,7 @@ export default function Home() {
             </Head>
             <NavBar />
             <Banner />
-            <div className="px-12">
+            <div className="px-5 lg:px-12">
                 <WhyUs />
                 <Offering />
                 <WeDo />

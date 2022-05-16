@@ -5,19 +5,19 @@ import Mail from "../public/static/images/mail.svg";
 import Phone from "../public/static/images/phone.svg";
 const SubFooter = () => {
     return (
-        <div className="w-full px-12 py-10 grid grid-cols-3 bg-black font-helv text-white items-center">
-            <div>
+        <div className="w-full px-5 lg:px-12 py-10 grid md:grid-cols-3 bg-black font-helv text-white items-center gap-3 lg:gap-0 ">
+            <div className="flex md:block gap-3 md:gap-0 justify-center">
                 <div>Our Team</div>
                 <div>Privacy Policy</div>
                 <div>Legal</div>
                 <div>Support</div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex justify-center gap-3 md:gap-0 md:flex-col lg:items-center">
                 <div>Partnership</div>
                 <div>Investment</div>
                 <div>New Delhi, India</div>
             </div>
-            <div className="flex flex-col items-end gap-3">
+            <div className="flex md:flex-col md:items-end md:gap-3 justify-center gap-5">
                 <div className="text-center">
                     <div>Social</div>
                     <div className="flex gap-1">

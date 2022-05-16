@@ -5,7 +5,7 @@ const Offering = () => {
     return (
         <div className="w-full pt-20">
             <div>
-                <div className="w-7/12 flex gap-3 flex-col">
+                <div className="lg:w-7/12 flex gap-3 flex-col">
                     <div>
                         <h1 className="font-ald font-bold text-2xl">
                             Our Offerings
@@ -18,7 +18,7 @@ const Offering = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full grid grid-cols-4 gap-7 mt-6">
+            <div className="w-full grid lg:grid-cols-4 gap-7 mt-6">
                 <OfferingCard
                     heading={"SOCIAL MEDIA"}
                     text={

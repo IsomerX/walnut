@@ -26,7 +26,7 @@ const data = {
 const WeDoItem = ({ idx }) => {
     return (
         <div className="flex flex-col items-center gap-4">
-            <div>
+            <div className="hidden lg:block">
                 <div className="bg-[#feaca8] grid place-items-center h-8 aspect-square rounded-full">
                     <div className="bg-black h-4 aspect-square rounded-full"></div>
                 </div>
