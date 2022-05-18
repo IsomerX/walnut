@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import Fb from "../public/static/images/fb.svg";
 import Mail from "../public/static/images/mail.svg";
@@ -8,7 +9,7 @@ const SubFooter = () => {
         <div className="w-full px-5 lg:px-12 py-10 grid md:grid-cols-3 bg-black font-helv text-white items-center gap-3 lg:gap-0 ">
             <div className="flex md:block gap-3 md:gap-0 justify-center">
                 <div>Our Team</div>
-                <div>Privacy Policy</div>
+                <Link href={"/privacy-policy"}>Privacy Policy</Link>
                 <div>Legal</div>
                 <div>Support</div>
             </div>
