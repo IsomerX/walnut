@@ -30,7 +30,7 @@ const Privacy = () => (
             <br />
             <b>2. About Walnut</b>
             <br />
-            Walnut is India's 1st social health platform or a virtual health
+            Walnut is India&apos;s 1st social health platform or a virtual health
             club, comprising of a blend of verified doctors, organic users,
             social media feed, posts, health communities &amp; health content.
             <br />
